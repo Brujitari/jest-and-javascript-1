@@ -1,0 +1,16 @@
+{
+  "name": "@brujitari/tdd-101",
+  "version": "1.0.0",
+  "description": "TDD basic concepts",
+  "main": "index.js",
+  "author": "brujitari",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn jest --notify",
+    "test:watch": "yarn jest --notify --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "node-notifier": "^10.0.1"
+  }
+}
